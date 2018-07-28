@@ -20,6 +20,7 @@ const Nav = props => {
         <li><Link to='/Portifolio'>PORTFOLIO</Link></li>
         <li><Link to='/Precos'>PREÇOS</Link></li>
         <li><Link to='/Contatos'>CONTATOS</Link></li>
+        <li><Link to='/Admin'>ADMIN</Link></li>
       </ul>
     </div>
   </div>

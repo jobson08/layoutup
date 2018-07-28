@@ -1,9 +1,11 @@
 import React from 'react'
 
+
 class Maim extends React.Component{
   render(){
   return(
     <div>
+
     <div id='about' className='container-fluid'>
       <div className='row'>
         <div className='col-sm-8'>
@@ -34,6 +36,6 @@ class Maim extends React.Component{
     </div>
   );
   }
-}  
+}
 
 export default Maim;

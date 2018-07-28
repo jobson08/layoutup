@@ -11,6 +11,7 @@ import Servico from './Screens/Servico/servico'
 import Portifolio from './Screens/Portifolio/portifolio'
 import Precos from './Screens/Precos/precos'
 import Contatos from './Screens/Contatos/contatos'
+import Admin from './Admin/admin'
 class App extends Component {
   render() {
     return (
@@ -23,6 +24,8 @@ class App extends Component {
       <Route path='/Portifolio' component={Portifolio} />
       <Route path='/Precos' component={Precos} />
       <Route path='/Contatos' component={Contatos} />
+      
+      <Route path='/Admin' component={Admin} />
       <Footer />
       </div>
       </BrowserRouter>
