@@ -1,20 +1,43 @@
-import React from 'react'
+import React,{Component } from 'react'
 
-class Portifolio extends React.Component{
+import config from './../firebase-config'
+import CardPortifolio from './CardPortifolio'
+class Portifolio extends Component{
+  constructor(props){
+    super(props)
+
+    this.state= {
+      portifolio: {
+
+      }
+    }
+    config.syncState('getportifolio',{
+    context: this,
+    state:'portifolio',
+    asArray:false
+  })
+  }
   render(){
   return(
     <div id='portfolio' className='container-fluid text-center bg-grey'>
       <h2>Portfolio</h2><br />
       <h4>What we have created</h4>
       <div className='row text-center '>
+
+   {
+      Object.keys(this.state.portifolio).map(key => {
+          return <CardPortifolio key={key} conteudo={this.state.portifolio[key]} />
+        })
+    }
+    {/*   <p>{JSON.stringify(Object.keys(this.state.portifolio))}</p>
         <div className='col-sm-4'>
           <div className='thumbnail'>
-            <img src='paris.jpg' alt='Paris' width='400' height='300' />
-            <p><strong>Paris</strong></p>
-            <p>Yes, we built Paris</p>
+            <img src='paris.jpg' alt='' width='400' height='300' />
+            <p><strong>{this.state.portifolio.titulo}</strong></p>
+            <p>{this.state.portifolio.descricao}</p>
           </div>
-        </div>
-        <div className='col-sm-4'>
+        </div>*/}
+      {/*  <div className='col-sm-4'>
           <div className='thumbnail'>
             <img src='newyork.jpg' alt='New York' width='400' height='300' />
             <p><strong>New York</strong></p>
@@ -27,7 +50,7 @@ class Portifolio extends React.Component{
             <p><strong>San Francisco</strong></p>
             <p>Yes, San Fran is ours</p>
           </div>
-        </div>
+        </div>*/}
       </div><br />
 
       <h2>What our customers say</h2>
