@@ -21,7 +21,8 @@ export default StyleSheet.create({
     marginBottom: [{ unit: 'px', value: 30 }]
   },
   jumbotron: {
-    backgroundColor: '#f4511e',
+    backgroundColor: '#009688',
+    // cor prymatia
     color: '#fff',
     padding: [{ unit: 'px', value: 100 }, { unit: 'px', value: 25 }, { unit: 'px', value: 100 }, { unit: 'px', value: 25 }],
     fontFamily: 'Montserrat, sans-serif'
@@ -33,11 +34,13 @@ export default StyleSheet.create({
     backgroundColor: '#f6f6f6'
   },
   'logo-small': {
-    color: '#f4511e',
+    color: '#009688',
+    // cor prymatia
     fontSize: [{ unit: 'px', value: 50 }]
   },
   logo: {
-    color: '#f4511e',
+    color: '#009688',
+    // cor prymatia
     fontSize: [{ unit: 'px', value: 200 }],
     'screen&&<w480': {
       fontSize: [{ unit: 'px', value: 150 }]
@@ -55,17 +58,21 @@ export default StyleSheet.create({
   },
   'carousel-controlright': {
     backgroundImage: 'none',
-    color: '#f4511e'
+    color: '#009688',
+    // cor prymatia
   },
   'carousel-controlleft': {
     backgroundImage: 'none',
-    color: '#f4511e'
+    color: '#009688',
+    // cor prymatia
   },
   'carousel-indicators li': {
-    borderColor: '#f4511e'
+    borderColor: '#009688',
+    // cor prymatia
   },
   'carousel-indicators liactive': {
-    backgroundColor: '#f4511e'
+    backgroundColor: '#009688',
+    // cor prymatia
   },
   'item h4': {
     fontSize: [{ unit: 'px', value: 19 }],
@@ -78,7 +85,8 @@ export default StyleSheet.create({
     fontStyle: 'normal'
   },
   panel: {
-    border: [{ unit: 'px', value: 1 }, { unit: 'string', value: 'solid' }, { unit: 'string', value: '#f4511e' }],
+    border: [{ unit: 'px', value: 1 }, { unit: 'string', value: 'solid' }, { unit: 'string', value: '#009688' }],
+    // cor prymatia
     borderRadius: '0 !important',
     transition: 'box-shadow 0.5s'
   },
@@ -86,13 +94,16 @@ export default StyleSheet.create({
     boxShadow: [{ unit: 'px', value: 5 }, { unit: 'px', value: 0 }, { unit: 'px', value: 40 }, { unit: 'string', value: 'rgba(0,0,0, .2)' }]
   },
   'panel-footer btn:hover': {
-    border: [{ unit: 'px', value: 1 }, { unit: 'string', value: 'solid' }, { unit: 'string', value: '#f4511e' }],
+    border: [{ unit: 'px', value: 1 }, { unit: 'string', value: 'solid' }, { unit: 'string', value: '#009688' }],
+    // cor prymatia
     backgroundColor: '#fff !important',
-    color: '#f4511e'
+    color: '#009688',
+    // cor prymatia
   },
   'panel-heading': {
     color: '#fff !important',
-    backgroundColor: '#f4511e !important',
+    backgroundColor: '#009688  !important',
+    // cor prymatia
     padding: [{ unit: 'px', value: 25 }, { unit: 'px', value: 25 }, { unit: 'px', value: 25 }, { unit: 'px', value: 25 }],
     borderBottom: [{ unit: 'px', value: 1 }, { unit: 'string', value: 'solid' }, { unit: 'string', value: 'transparent' }],
     borderTopLeftRadius: '0px',
@@ -112,15 +123,17 @@ export default StyleSheet.create({
   },
   'panel-footer btn': {
     margin: [{ unit: 'px', value: 15 }, { unit: 'px', value: 0 }, { unit: 'px', value: 15 }, { unit: 'px', value: 0 }],
-    backgroundColor: '#f4511e',
+    backgroundColor: '#009688',
+    // cor prymatia
     color: '#fff'
   },
   navbar: {
     marginBottom: [{ unit: 'px', value: 0 }],
-    backgroundColor: '#f4511e',
+    backgroundColor: '#009688',
+    // cor prymatia
     zIndex: '9999',
     border: [{ unit: 'px', value: 0 }],
-    fontSize: [{ unit: 'px', value: 12 }, { unit: 'string', value: '!important' }],
+    fontSize: [{ unit: 'px', value: 15 }, { unit: 'string', value: '!important' }],
     lineHeight: [{ unit: 'px', value: 1.42857143 }, { unit: 'string', value: '!important' }],
     letterSpacing: [{ unit: 'px', value: 4 }],
     borderRadius: '0',
@@ -133,11 +146,13 @@ export default StyleSheet.create({
     color: '#fff !important'
   },
   'navbar-nav li a:hover': {
-    color: '#f4511e !important',
+    color: '#009688  !important',
+    // cor prymatia
     backgroundColor: '#fff !important'
   },
   'navbar-nav liactive a': {
-    color: '#f4511e !important',
+    color: '#009688  !important',
+    // cor prymatia
     backgroundColor: '#fff !important'
   },
   'navbar-default navbar-toggle': {
@@ -147,7 +162,8 @@ export default StyleSheet.create({
   'footer glyphicon': {
     fontSize: [{ unit: 'px', value: 20 }],
     marginBottom: [{ unit: 'px', value: 20 }],
-    color: '#f4511e'
+    color: '#009688',
+    // cor prymatia
   },
   slideanim: {
     visibility: 'hidden'

@@ -13,6 +13,7 @@ import Precos from './Screens/Precos'
 import Contatos from './Screens/Contatos'
 
 import Admin from './admin/Admin'
+import Login from './admin/Login'
 
 class App extends Component {
   render() {
@@ -28,6 +29,8 @@ class App extends Component {
       <Route path='/Contatos' component={Contatos} />
 
       <Route path='/admin' component={Admin} />
+      <Login />
+
       <Footer />
       </div>
       </BrowserRouter>
