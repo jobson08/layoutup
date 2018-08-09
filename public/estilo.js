@@ -74,6 +74,12 @@ export default StyleSheet.create({
     backgroundColor: '#009688',
     // cor prymatia
   },
+  // .carousel-inner img{
+    -webkit-filter:grayscale(90%);
+    filter: grayscale(90%);
+    width: 100%;
+    margin: auto;
+}
   'item h4': {
     fontSize: [{ unit: 'px', value: 19 }],
     lineHeight: [{ unit: 'em', value: 1.375 }],
@@ -137,7 +143,8 @@ export default StyleSheet.create({
     lineHeight: [{ unit: 'px', value: 1.42857143 }, { unit: 'string', value: '!important' }],
     letterSpacing: [{ unit: 'px', value: 4 }],
     borderRadius: '0',
-    fontFamily: 'Montserrat, sans-serif'
+    fontFamily: 'Montserrat, sans-serif',
+    opacity: '0.9'
   },
   'navbar li a': {
     color: '#fff !important'
@@ -156,7 +163,7 @@ export default StyleSheet.create({
     backgroundColor: '#fff !important'
   },
   'navbar-default navbar-toggle': {
-    borderColor: 'transparent',
+    borderColor: '"transparent"',
     color: '#fff !important'
   },
   'footer glyphicon': {

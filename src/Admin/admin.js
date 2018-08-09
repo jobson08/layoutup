@@ -16,7 +16,7 @@ class Admin extends Component{
         <Route path={`/`} component={AdminMenu} />
         <Route path={`${this.props.match.url}/portifolio`} component={AdminPortifolio} />
   </div>
- 
+
     )
   }
 }

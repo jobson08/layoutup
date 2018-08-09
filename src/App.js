@@ -29,7 +29,7 @@ class App extends Component {
       <Route path='/Contatos' component={Contatos} />
 
       <Route path='/admin' component={Admin} />
-      <Login />
+      <Route path='/login' component={Login} />
 
       <Footer />
       </div>
